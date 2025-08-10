@@ -1,10 +1,24 @@
-### WISER Quantum Walk Monte Carlo Simulation
+## Project 1: Quantum Walks and Monte Carlo
 
 
-### Team Name
+### Team Name: Quantum Probability Pioneers
+
+---
+
+### Team members’ Name & WISER Enrollment ID
+
+- Kazi Muktadir Ahmed, WISER Enrollment ID: <i>gst-DMAX36KxZhsV8kl</i>
+
+- Tasfia Zaman Samiha, WISER Enrollment ID: <i>gst-kRHto5A3fb43ghV</i>
+
+- Asif Mohammed Saad, WISER Enrollment ID: <i>gst-kepn3SoE4kfxABb</i>
+
+
 
 
 ### Methodology Overview
+
+---
 
 This notebook simulates a quantum random walk using Qiskit, blending quantum superposition and interference with classical Monte Carlo sampling. It compares ideal and noisy simulations to highlight quantum behavior and hardware limitations.
 
@@ -17,6 +31,8 @@ This notebook simulates a quantum random walk using Qiskit, blending quantum sup
 
 #### Key Takeaways
 
+---
+
 - Quantum walks exhibit interference and non-classical spread.
 - Monte Carlo sampling enables probabilistic estimation.
 - Noise significantly alters quantum behavior, revealing hardware constraints.
@@ -24,6 +40,8 @@ This notebook simulates a quantum random walk using Qiskit, blending quantum sup
 
 
 #### Potential Extensions
+
+---
 
 To build on this:
 
@@ -35,3 +53,5 @@ To build on this:
 
 
 ### Project Presentation deck
+
+---
