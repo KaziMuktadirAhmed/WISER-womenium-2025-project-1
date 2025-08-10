@@ -1,0 +1,31 @@
+--- Comparing Ideal vs Noisy Simulation for 5-Layer QGB ---
+
+=== IDEAL SIMULATION ===
+Ideal Results (Probabilities):
+{0: 0.6907958984375, 1: 0.2685546875, 2: 0.03759765625, 3: 0.0029296875, 4: 0.0001220703125, 5: 0.0}
+
+=== NOISY SIMULATION ===
+Using device: torino
+Circuit qubits: 12, Device qubits: Unknown
+Original circuit depth: 67
+Transpiled circuit depth: 782
+
+Noisy Results (Probabilities):
+{0: 0.5728759765625, 1: 0.24072265625, 2: 0.0794677734375, 3: 0.01806640625, 4: 0.0037841796875, 5: 0.00341796875}
+
+--- Noise Model Information ---
+Device used: torino
+Noise model type: <class 'qiskit_aer.noise.noise_model.NoiseModel'>
+Number of noise instructions: 6
+
+--- Difference Analysis ---
+Position 0: Ideal=0.6908, Noisy=0.5729, Diff=0.1179
+Position 1: Ideal=0.2686, Noisy=0.2407, Diff=0.0278
+Position 2: Ideal=0.0376, Noisy=0.0795, Diff=0.0419
+Position 3: Ideal=0.0029, Noisy=0.0181, Diff=0.0151
+Position 4: Ideal=0.0001, Noisy=0.0038, Diff=0.0037
+Position 5: Ideal=0.0000, Noisy=0.0034, Diff=0.0034
+
+Total Variation Distance: 0.1049
+Jensen-Shannon Divergence: 0.1330
+Wasserstein Distance: 0.5414
