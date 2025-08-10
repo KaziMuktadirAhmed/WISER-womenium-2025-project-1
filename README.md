@@ -55,5 +55,5 @@ To build on this:
 ### Project Presentation deck
 
 ---
-Presentation deck: [Quantum Walks & Monte Carlo Project](https://docs.google.com/presentation/d/1O9KLAqwzCrZOyzNyJj0-fSRWQg6A5aqN/edit?usp=sharing&ouid=105140124381249478954&rtpof=true&sd=true)
-Short video: [Quantum Walks and Monte Carlo - Team Quantum Probability Pioneers (Wiser Quantum Program 2025)](https://youtu.be/Cwur5bvqj1Y)
++ Presentation deck: [Quantum Walks & Monte Carlo Project](https://docs.google.com/presentation/d/1O9KLAqwzCrZOyzNyJj0-fSRWQg6A5aqN/edit?usp=sharing&ouid=105140124381249478954&rtpof=true&sd=true)
++ Short video: [Quantum Walks and Monte Carlo - Team Quantum Probability Pioneers (Wiser Quantum Program 2025)](https://youtu.be/Cwur5bvqj1Y)
