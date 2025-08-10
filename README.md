@@ -16,7 +16,7 @@
 
 
 
-### Methodology Overview
+### Summary
 
 ---
 
@@ -25,7 +25,7 @@ This notebook simulates a quantum random walk using Qiskit, blending quantum sup
 1. **Setup**: Installs and imports Qiskit, Aer, NumPy, and Matplotlib.
 2. **Circuit Design**: Uses Hadamard for superposition; controlled shifts simulate quantum steps; measurements extract position data.
 3. **Ideal Simulation**: Runs noiseless trials (e.g., 10,000 shots); outputs show quantum interference and faster spread.
-4. **Noisy Simulation**: Applies IBM device noise model (e.g., 'manhattan'); simulates realistic imperfections.
+4. **Noisy Simulation**: 12 IBM fake backend systems were used to simulate realistic imperfections. Among these, FakeTorino yielded better results for gaussian, hadamard, and exponential distributions, while FakeCusco performed well specifically for the gaussian distribution. Both Qiskit’s transpiler optimization level 3 and the Qiskit AI-transpiler with optimization level 3 were used to optimize the circuit architecture.
 5. **Execution & Visualization**: Compares noisy vs. ideal distributions; noise reduces interference, resembling classical randomness.
 6. **Analysis**: Computes Total Variation Distance (TVD) and Jensen-Shannon Divergence (JSD) to quantify differences.
 
