@@ -1,0 +1,40 @@
+--- Three-Method Comparison for 5-Layer QGB ---
+
+=== IDEAL SIMULATION ===
+Ideal Results (Probabilities):
+{0: 0.0299072265625, 1: 0.150146484375, 2: 0.3165283203125, 3: 0.3125, 4: 0.1605224609375, 5: 0.0303955078125}
+
+=== AI TRANSPILER SIMULATION ===
+Using device: torino
+Original circuit depth: 65
+AI transpiled circuit depth: 1275
+AI Transpiler Results (Probabilities):
+{0: 0.20361328125, 1: 0.2239990234375, 2: 0.215576171875, 3: 0.1622314453125, 4: 0.0819091796875, 5: 0.027099609375}
+
+=== TRADITIONAL TRANSPILER SIMULATION ===
+Traditional transpiled circuit depth: 819
+Traditional Transpiler Results (Probabilities):
+{0: 0.0570068359375, 1: 0.1953125, 2: 0.2781982421875, 3: 0.255859375, 4: 0.1146240234375, 5: 0.0279541015625}
+
+--- Distance Analysis ---
+AI Transpiler vs Ideal:
+  Total Variation Distance: 0.2903
+  Jensen-Shannon Divergence: 0.3024
+  Wasserstein Distance: 0.6538
+
+Traditional Transpiler vs Ideal:
+  Total Variation Distance: 0.1078
+  Jensen-Shannon Divergence: 0.1048
+  Wasserstein Distance: 0.2246
+
+AI vs Traditional Transpiler:
+  Total Variation Distance: 0.1826
+  Jensen-Shannon Divergence: 0.2115
+  Wasserstein Distance: 0.4673
+
+--- Circuit Performance Comparison ---
+Original Circuit Depth: 65
+AI Transpiled Depth: 1275
+Traditional Transpiled Depth: 819
+AI Transpiler Depth Reduction: -1861.54%
+Traditional Transpiler Depth Reduction: -1160.00%
